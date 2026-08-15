@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "סמן הכל כנקראו"
+                      },
+    "extensionDescription":  {
+                                 "message":  "מסמן כל אימייל שלא נקרא כנקראו בכל חשבונות הדואר של Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "סמן את כל הודעות האימייל כנקראו"
+                    },
+    "searching":  {
+                      "message":  "מחפש אימיילים שלא נקראו..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "לא עודכנו אימיילים; לא ניתן היה לגשת לחשבון אחד או יותר"
+                               },
+    "alreadyRead":  {
+                        "message":  "כל המיילים כבר נקראו"
+                    },
+    "progress":  {
+                     "message":  "$1 מתוך $2 הודעות אימייל מסומנות כנקראו"
+                 },
+    "partialResult":  {
+                          "message":  "$1 הודעות אימייל מסומנות כנקראו; פעולות $2 נכשלו"
+                      },
+    "success":  {
+                    "message":  "$1 הודעות אימייל מסומנות כנקראו"
+                },
+    "genericError":  {
+                         "message":  "לא ניתן לסמן את כל האימיילים כנקראו"
+                     }
+}

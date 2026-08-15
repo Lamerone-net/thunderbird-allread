@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Tandai Semua sebagai Dibaca"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Menandai setiap e-mel yang belum dibaca sebagai dibaca dalam semua akaun mel Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Tandai semua e-mel sebagai dibaca"
+                    },
+    "searching":  {
+                      "message":  "Mencari e-mel yang belum dibacaâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Tiada e-mel dikemas kini; satu atau lebih akaun tidak dapat diakses"
+                               },
+    "alreadyRead":  {
+                        "message":  "Semua e-mel sudah dibaca"
+                    },
+    "progress":  {
+                     "message":  "$1 daripada $2 e-mel ditandai sebagai dibaca"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mel ditandai sebagai dibaca; $2 operasi gagal"
+                      },
+    "success":  {
+                    "message":  "$1 e-mel ditandai sebagai dibaca"
+                },
+    "genericError":  {
+                         "message":  "Tidak dapat menandai semua e-mel sebagai dibaca"
+                     }
+}

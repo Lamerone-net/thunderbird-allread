@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marcáil Uile mar Léamh"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Marcáil gach ríomhphost neamhléite mar atá léite i ngach cuntas ríomhphoist Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Marcáil gach ríomhphost mar a léitear"
+                    },
+    "searching":  {
+                      "message":  "Ag cuardach ríomhphoist neamhléite"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Níor nuashonraíodh aon ríomhphost; níorbh fhéidir rochtain a fháil ar chuntas amháin nó níos mó"
+                               },
+    "alreadyRead":  {
+                        "message":  "Tá gach ríomhphost léite cheana féin"
+                    },
+    "progress":  {
+                     "message":  "$1 de $2 ríomhphost marcáilte mar léite"
+                 },
+    "partialResult":  {
+                          "message":  "$1 ríomhphost marcáilte mar léite; theip ar $2 oibríocht"
+                      },
+    "success":  {
+                    "message":  "$1 ríomhphost marcáilte mar léite"
+                },
+    "genericError":  {
+                         "message":  "Ní féidir gach ríomhphost a mharcáil mar léite"
+                     }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Označi sve kao pročitano"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Označava svaku nepročitanu e-poštu kao pročitanu na svim računima e-pošte Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Označi sve e-poruke kao pročitane"
+                    },
+    "searching":  {
+                      "message":  "Traženje nepročitanih e-poruka..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Nema ažuriranih e-poruka; nije moguće pristupiti jednom ili više računa"
+                               },
+    "alreadyRead":  {
+                        "message":  "Svi e-mailovi su već pročitani"
+                    },
+    "progress":  {
+                     "message":  "$1 od $2 e-pošte označeno kao pročitano"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-pošte označene kao pročitane; $2 operacija nije uspjela"
+                      },
+    "success":  {
+                    "message":  "$1 e-pošte označene kao pročitane"
+                },
+    "genericError":  {
+                         "message":  "Nije moguće označiti sve poruke e-pošte kao pročitane"
+                     }
+}

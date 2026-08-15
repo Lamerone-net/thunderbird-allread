@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Merk alles as gelees"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Merk elke ongeleesde e-pos as gelees in alle Thunderbird-posrekeninge."
+                             },
+    "actionTitle":  {
+                        "message":  "Merk alle e-posse as gelees"
+                    },
+    "searching":  {
+                      "message":  "Soek tans na ongeleesde e-posse…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Geen e-posse is opgedateer nie; kon nie toegang tot een of meer rekeninge verkry nie"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alle e-posse is reeds gelees"
+                    },
+    "progress":  {
+                     "message":  "$1 van $2 e-posse gemerk as gelees"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-posse gemerk as gelees; $2 bewerkings het misluk"
+                      },
+    "success":  {
+                    "message":  "$1 e-posse gemerk as gelees"
+                },
+    "genericError":  {
+                         "message":  "Kan nie alle e-posse as gelees merk nie"
+                     }
+}

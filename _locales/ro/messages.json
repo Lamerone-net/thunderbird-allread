@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marcați toate ca citite"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Marchează fiecare e-mail necitit ca citit în toate conturile de e-mail Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Marcați toate e-mailurile ca citite"
+                    },
+    "searching":  {
+                      "message":  "Căutarea e-mailurilor necitite..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Niciun e-mail actualizat; unul sau mai multe conturi nu au putut fi accesate"
+                               },
+    "alreadyRead":  {
+                        "message":  "Toate e-mailurile sunt deja citite"
+                    },
+    "progress":  {
+                     "message":  "$1 din $2 e-mailuri marcate ca citite"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mailuri marcate ca citite; Operațiunile $2 au eșuat"
+                      },
+    "success":  {
+                    "message":  "$1 e-mailuri marcate ca citite"
+                },
+    "genericError":  {
+                         "message":  "Nu se pot marca toate e-mailurile ca citite"
+                     }
+}

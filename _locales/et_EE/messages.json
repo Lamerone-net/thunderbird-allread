@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Märgi kõik loetuks"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Märgib kõik lugemata meilid loetuks kõigil Thunderbirdi meilikontodel."
+                             },
+    "actionTitle":  {
+                        "message":  "Märkige kõik meilid loetuks"
+                    },
+    "searching":  {
+                      "message":  "Lugemata meilide otsimine"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Ühtegi e-kirja pole värskendatud; ühele või mitmele kontole ei pääsenud juurde"
+                               },
+    "alreadyRead":  {
+                        "message":  "Kõik meilid on juba loetud"
+                    },
+    "progress":  {
+                     "message":  "$1/$2 meili on märgitud loetuks"
+                 },
+    "partialResult":  {
+                          "message":  "$1 meilid on märgitud loetuks; $2 toimingud ebaõnnestusid"
+                      },
+    "success":  {
+                    "message":  "$1 meilid on märgitud loetuks"
+                },
+    "genericError":  {
+                         "message":  "Kõiki meile ei saa loetuks märkida"
+                     }
+}

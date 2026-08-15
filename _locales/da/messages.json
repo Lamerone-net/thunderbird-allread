@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marker alle som læst"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Markerer alle ulæste e-mails som læste i alle Thunderbird-mailkonti."
+                             },
+    "actionTitle":  {
+                        "message":  "Marker alle e-mails som læst"
+                    },
+    "searching":  {
+                      "message":  "Søger efter ulæste e-mails…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Ingen e-mails opdateret; en eller flere konti kunne ikke tilgås"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alle e-mails er allerede læst"
+                    },
+    "progress":  {
+                     "message":  "$1 af $2 e-mails markeret som læst"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mails markeret som læst; $2 handlinger mislykkedes"
+                      },
+    "success":  {
+                    "message":  "$1 e-mails markeret som læst"
+                },
+    "genericError":  {
+                         "message":  "Kan ikke markere alle e-mails som læst"
+                     }
+}

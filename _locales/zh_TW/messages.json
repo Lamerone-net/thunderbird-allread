@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "全部標記為已讀"
+                      },
+    "extensionDescription":  {
+                                 "message":  "將所有 Thunderbird 郵件帳號中的每封未讀電子郵件標記為已讀。"
+                             },
+    "actionTitle":  {
+                        "message":  "將所有電子郵件標記為已讀"
+                    },
+    "searching":  {
+                      "message":  "搜尋未讀電子郵件..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "沒有更新電子郵件；無法存取一個或多個帳戶"
+                               },
+    "alreadyRead":  {
+                        "message":  "所有電子郵件均已閱讀"
+                    },
+    "progress":  {
+                     "message":  "$1 封電子郵件（共 $2 封）標記為已讀"
+                 },
+    "partialResult":  {
+                          "message":  "$1 電子郵件標記為已讀； $2 操作失敗"
+                      },
+    "success":  {
+                    "message":  "$1 電子郵件標記為已讀"
+                },
+    "genericError":  {
+                         "message":  "無法將所有電子郵件標記為已讀"
+                     }
+}

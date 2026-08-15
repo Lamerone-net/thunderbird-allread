@@ -1,0 +1,32 @@
+{
+  "extensionName": {
+    "message": "Segna tutto come letto"
+  },
+  "extensionDescription": {
+    "message": "Segna come lette tutte le email non lette in ogni account di Thunderbird."
+  },
+  "actionTitle": {
+    "message": "Segna tutte le email come lette"
+  },
+  "searching": {
+    "message": "Ricerca delle email non lette…"
+  },
+  "noMessagesAccountError": {
+    "message": "Nessuna email aggiornata; uno o più account non sono accessibili"
+  },
+  "alreadyRead": {
+    "message": "Tutte le email sono già lette"
+  },
+  "progress": {
+    "message": "$1 di $2 email segnate come lette"
+  },
+  "partialResult": {
+    "message": "$1 email segnate come lette; $2 operazioni non riuscite"
+  },
+  "success": {
+    "message": "$1 email segnate come lette"
+  },
+  "genericError": {
+    "message": "Impossibile segnare tutte le email come lette"
+  }
+}

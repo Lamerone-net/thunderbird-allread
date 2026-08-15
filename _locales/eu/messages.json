@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Markatu guztiak Irakurri gisa"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Irakurri gabeko mezu guztiak Thunderbird posta-kontu guztietan irakurritako gisa markatzen ditu."
+                             },
+    "actionTitle":  {
+                        "message":  "Markatu mezu elektroniko guztiak irakurrita bezala"
+                    },
+    "searching":  {
+                      "message":  "Irakurri gabeko mezu elektronikoak bilatzenâ¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Ez dago mezu elektronikorik eguneratu; Ezin izan da kontu bat edo gehiago atzitu"
+                               },
+    "alreadyRead":  {
+                        "message":  "Mezu elektroniko guztiak irakurrita daude dagoeneko"
+                    },
+    "progress":  {
+                     "message":  "Irakurri gisa markatutako $1/$2 mezu elektronikoak"
+                 },
+    "partialResult":  {
+                          "message":  "$1 irakurritako gisa markatutako mezu elektronikoak; $2 eragiketak huts egin du"
+                      },
+    "success":  {
+                    "message":  "Irakurri gisa markatutako $1 mezu elektronikoak"
+                },
+    "genericError":  {
+                         "message":  "Ezin dira mezu elektroniko guztiak irakurri bezala markatu"
+                     }
+}

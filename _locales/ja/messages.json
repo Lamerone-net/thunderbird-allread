@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "すべて既読としてマーク"
+                      },
+    "extensionDescription":  {
+                                 "message":  "すべての Thunderbird メール アカウントですべての未読メールを既読としてマークします。"
+                             },
+    "actionTitle":  {
+                        "message":  "すべてのメールを既読としてマークする"
+                    },
+    "searching":  {
+                      "message":  "未読メールを検索中..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "電子メールは更新されていません。 1 つ以上のアカウントにアクセスできませんでした"
+                               },
+    "alreadyRead":  {
+                        "message":  "すべてのメールは既読です"
+                    },
+    "progress":  {
+                     "message":  "$2 件中 $1 件のメールが既読としてマークされました"
+                 },
+    "partialResult":  {
+                          "message":  "$1 メールが既読としてマークされています。 $2 操作が失敗しました"
+                      },
+    "success":  {
+                    "message":  "$1 件のメールが既読としてマークされました"
+                },
+    "genericError":  {
+                         "message":  "すべてのメールを既読としてマークできない"
+                     }
+}

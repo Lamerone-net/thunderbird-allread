@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "全部标记为已读"
+                      },
+    "extensionDescription":  {
+                                 "message":  "将所有 Thunderbird 邮件帐户中的每封未读电子邮件标记为已读。"
+                             },
+    "actionTitle":  {
+                        "message":  "将所有电子邮件标记为已读"
+                    },
+    "searching":  {
+                      "message":  "搜索未读电子邮件..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "没有更新电子邮件；无法访问一个或多个帐户"
+                               },
+    "alreadyRead":  {
+                        "message":  "所有电子邮件均已阅读"
+                    },
+    "progress":  {
+                     "message":  "$1 封电子邮件（共 $2 封）标记为已读"
+                 },
+    "partialResult":  {
+                          "message":  "$1 电子邮件标记为已读； $2 操作失败"
+                      },
+    "success":  {
+                    "message":  "$1 电子邮件标记为已读"
+                },
+    "genericError":  {
+                         "message":  "无法将所有电子邮件标记为已读"
+                     }
+}

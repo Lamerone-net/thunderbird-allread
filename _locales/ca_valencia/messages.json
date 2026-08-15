@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marca-ho tot com a llegit"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Marca tots els correus electrònics no llegits com a llegits a tots els comptes de correu Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Marca tots els correus electrònics com a llegits"
+                    },
+    "searching":  {
+                      "message":  "Cercant correus electrònics no llegits..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "No s\u0027ha actualitzat cap correu electrònic; No s\u0027ha pogut accedir a un o més comptes"
+                               },
+    "alreadyRead":  {
+                        "message":  "Tots els correus electrònics ja estan llegits"
+                    },
+    "progress":  {
+                     "message":  "$1 de $2 correus electrònics marcats com a llegits"
+                 },
+    "partialResult":  {
+                          "message":  "$1 correus electrònics marcats com a llegits; Les operacions de $2 han fallat"
+                      },
+    "success":  {
+                    "message":  "$1 correus electrònics marcats com a llegits"
+                },
+    "genericError":  {
+                         "message":  "No es poden marcar tots els correus electrònics com a llegits"
+                     }
+}

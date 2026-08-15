@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marquer tout comme lu"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Marque chaque e-mail non lu comme lu dans tous les comptes de messagerie Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Marquer tous les e-mails comme lus"
+                    },
+    "searching":  {
+                      "message":  "Recherche d\u0027e-mails non lus…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Aucun e-mail mis à jour ; un ou plusieurs comptes ne sont pas accessibles"
+                               },
+    "alreadyRead":  {
+                        "message":  "Tous les emails sont déjà lus"
+                    },
+    "progress":  {
+                     "message":  "$1 e-mails sur $2 marqués comme lus"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mails marqués comme lus ; Échec de $2 opérations"
+                      },
+    "success":  {
+                    "message":  "$1 e-mails marqués comme lus"
+                },
+    "genericError":  {
+                         "message":  "Impossible de marquer tous les e-mails comme lus"
+                     }
+}

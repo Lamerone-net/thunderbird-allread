@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Shënoni të gjitha si të lexuara"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Shënon çdo email të palexuar si të lexuar në të gjitha llogaritë e postës Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Shënoni të gjitha emailet si të lexuara"
+                    },
+    "searching":  {
+                      "message":  "Duke kërkuar për emaile të palexuara"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Asnjë email i përditësuar; një ose më shumë llogari nuk mund të qaseshin"
+                               },
+    "alreadyRead":  {
+                        "message":  "Të gjitha emailet tashmë janë lexuar"
+                    },
+    "progress":  {
+                     "message":  "$1 nga $2 email-e të shënuara si të lexuara"
+                 },
+    "partialResult":  {
+                          "message":  "emailet $1 të shënuara si të lexuara; Operacionet $2 dështuan"
+                      },
+    "success":  {
+                    "message":  "emailet $1 të shënuara si të lexuara"
+                },
+    "genericError":  {
+                         "message":  "Nuk mund të shënohen të gjitha emailet si të lexuara"
+                     }
+}

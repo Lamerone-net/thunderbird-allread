@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Markeer alles als gelezen"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Markeert elke ongelezen e-mail als gelezen in alle Thunderbird-mailaccounts."
+                             },
+    "actionTitle":  {
+                        "message":  "Markeer alle e-mails als gelezen"
+                    },
+    "searching":  {
+                      "message":  "Zoeken naar ongelezen e-mailsâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Geen e-mails bijgewerkt; Er kon geen toegang worden verkregen tot een of meer accounts"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alle e-mails zijn al gelezen"
+                    },
+    "progress":  {
+                     "message":  "$1 van $2 e-mails gemarkeerd als gelezen"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mails gemarkeerd als gelezen; $2 bewerkingen zijn mislukt"
+                      },
+    "success":  {
+                    "message":  "$1 e-mails gemarkeerd als gelezen"
+                },
+    "genericError":  {
+                         "message":  "Kan niet alle e-mails als gelezen markeren"
+                     }
+}

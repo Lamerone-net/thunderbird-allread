@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Tümünü Okundu Olarak İşaretle"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Okunmamış her e-postayı tüm Thunderbird posta hesaplarında okundu olarak işaretler."
+                             },
+    "actionTitle":  {
+                        "message":  "Tüm e-postaları okundu olarak işaretle"
+                    },
+    "searching":  {
+                      "message":  "Okunmamış e-postalar aranıyor..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Hiçbir e-posta güncellenmedi; bir veya daha fazla hesaba erişilemedi"
+                               },
+    "alreadyRead":  {
+                        "message":  "Tüm e-postalar zaten okundu"
+                    },
+    "progress":  {
+                     "message":  "$1 / $2 e-posta okundu olarak işaretlendi"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-postalar okundu olarak işaretlendi; $2 işlemleri başarısız oldu"
+                      },
+    "success":  {
+                    "message":  "$1 e-posta okundu olarak işaretlendi"
+                },
+    "genericError":  {
+                         "message":  "Tüm e-postalar okundu olarak işaretlenemiyor"
+                     }
+}

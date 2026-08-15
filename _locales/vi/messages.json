@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Đánh dấu tất cả là đã đọc"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Đánh dấu mọi email chưa đọc là đã đọc trong tất cả các tài khoản thư Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Đánh dấu tất cả email là đã đọc"
+                    },
+    "searching":  {
+                      "message":  "Đang tìm kiếm email chưa đọcâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Không có email nào được cập nhật; không thể truy cập một hoặc nhiều tài khoản"
+                               },
+    "alreadyRead":  {
+                        "message":  "Tất cả các email đã được đọc"
+                    },
+    "progress":  {
+                     "message":  "$1 trong số $2 email được đánh dấu là đã đọc"
+                 },
+    "partialResult":  {
+                          "message":  "$1 email được đánh dấu là đã đọc; $2 thao tác không thành công"
+                      },
+    "success":  {
+                    "message":  "$1 email được đánh dấu là đã đọc"
+                },
+    "genericError":  {
+                         "message":  "Không thể đánh dấu tất cả email là đã đọc"
+                     }
+}

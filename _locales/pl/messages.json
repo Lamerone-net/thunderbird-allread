@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Oznacz wszystko jako przeczytane"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Oznacza każdą nieprzeczytaną wiadomość e-mail jako przeczytaną na wszystkich kontach pocztowych Thunderbirda."
+                             },
+    "actionTitle":  {
+                        "message":  "Oznacz wszystkie e-maile jako przeczytane"
+                    },
+    "searching":  {
+                      "message":  "Wyszukiwanie nieprzeczytanych e-maili"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Nie zaktualizowano żadnych e-maili; nie można było uzyskać dostępu do jednego lub więcej kont"
+                               },
+    "alreadyRead":  {
+                        "message":  "Wszystkie e-maile są już przeczytane"
+                    },
+    "progress":  {
+                     "message":  "$1 z $2 e-maili oznaczonych jako przeczytane"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-maile oznaczone jako przeczytane; $2 operacje nie powiodły się"
+                      },
+    "success":  {
+                    "message":  "$1 e-maili oznaczonych jako przeczytane"
+                },
+    "genericError":  {
+                         "message":  "Nie można oznaczyć wszystkich e-maili jako przeczytane"
+                     }
+}

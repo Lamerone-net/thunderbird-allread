@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marcar todo como lido"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Marca cada correo electrónico non lido como lido en todas as contas de correo Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Marca todos os correos electrónicos como lidos"
+                    },
+    "searching":  {
+                      "message":  "Buscando correos electrónicos non lidosâ¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Non hai correos electrónicos actualizados; Non se puido acceder a unha ou máis contas"
+                               },
+    "alreadyRead":  {
+                        "message":  "Xa están lidos todos os correos electrónicos"
+                    },
+    "progress":  {
+                     "message":  "$1 de $2 correos electrónicos marcados como lidos"
+                 },
+    "partialResult":  {
+                          "message":  "$1 correos electrónicos marcados como lidos; Produciuse un erro nas operacións de $2"
+                      },
+    "success":  {
+                    "message":  "$1 correos electrónicos marcados como lidos"
+                },
+    "genericError":  {
+                         "message":  "Non se poden marcar todos os correos electrónicos como lidos"
+                     }
+}

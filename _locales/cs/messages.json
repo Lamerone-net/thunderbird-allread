@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Označit vše jako přečtené"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Označí každý nepřečtený e-mail jako přečtený ve všech poštovních účtech Thunderbirdu."
+                             },
+    "actionTitle":  {
+                        "message":  "Označte všechny e-maily jako přečtené"
+                    },
+    "searching":  {
+                      "message":  "Vyhledávání nepřečtených e-mailů…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Žádné aktualizace e-mailů; k jednomu nebo více účtům se nepodařilo získat přístup"
+                               },
+    "alreadyRead":  {
+                        "message":  "Všechny e-maily jsou již přečteny"
+                    },
+    "progress":  {
+                     "message":  "$1 z $2 e-mailů označených jako přečtené"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-maily označené jako přečtené; Operace $2 se nezdařily"
+                      },
+    "success":  {
+                    "message":  "$1 e-mailů označených jako přečtené"
+                },
+    "genericError":  {
+                         "message":  "Nelze označit všechny e-maily jako přečtené"
+                     }
+}

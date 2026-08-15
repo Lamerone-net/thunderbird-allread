@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Tandai Semua sebagai Telah Dibaca"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Menandai setiap email yang belum dibaca sebagai telah dibaca di semua akun email Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Tandai semua email sebagai telah dibaca"
+                    },
+    "searching":  {
+                      "message":  "Mencari email yang belum dibacaâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Tidak ada email yang diperbarui; satu atau lebih akun tidak dapat diakses"
+                               },
+    "alreadyRead":  {
+                        "message":  "Semua email sudah dibaca"
+                    },
+    "progress":  {
+                     "message":  "$1 dari $2 email ditandai sebagai telah dibaca"
+                 },
+    "partialResult":  {
+                          "message":  "$1 email ditandai sebagai telah dibaca; $2 operasi gagal"
+                      },
+    "success":  {
+                    "message":  "$1 email ditandai sebagai telah dibaca"
+                },
+    "genericError":  {
+                         "message":  "Tidak dapat menandai semua email sebagai telah dibaca"
+                     }
+}

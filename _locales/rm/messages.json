@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Alle als gelesen markieren"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Markiert jede ungelesene E-Mail in allen Thunderbird-Mailkonten als gelesen."
+                             },
+    "actionTitle":  {
+                        "message":  "Markieren Sie alle E-Mails als gelesen"
+                    },
+    "searching":  {
+                      "message":  "Suche nach ungelesenen E-Mails…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Keine E-Mails aktualisiert; Auf ein oder mehrere Konten konnte nicht zugegriffen werden"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alle E-Mails sind bereits gelesen"
+                    },
+    "progress":  {
+                     "message":  "$1 von $2 E-Mails wurden als gelesen markiert"
+                 },
+    "partialResult":  {
+                          "message":  "$1 E-Mails als gelesen markiert; $2 Vorgänge sind fehlgeschlagen"
+                      },
+    "success":  {
+                    "message":  "$1 E-Mails als gelesen markiert"
+                },
+    "genericError":  {
+                         "message":  "Es können nicht alle E-Mails als gelesen markiert werden"
+                     }
+}

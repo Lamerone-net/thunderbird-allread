@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marcar todo como leído"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Marca cada correo electrónico no leído como leído en todas las cuentas de correo de Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Marcar todos los correos electrónicos como leídos"
+                    },
+    "searching":  {
+                      "message":  "Buscando correos electrónicos no leídos..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "No hay correos electrónicos actualizados; No se pudo acceder a una o más cuentas."
+                               },
+    "alreadyRead":  {
+                        "message":  "Todos los correos electrónicos ya están leídos."
+                    },
+    "progress":  {
+                     "message":  "$1 de $2 correos electrónicos marcados como leídos"
+                 },
+    "partialResult":  {
+                          "message":  "$1 correos electrónicos marcados como leídos; $2 operaciones fallidas"
+                      },
+    "success":  {
+                    "message":  "$1 correos electrónicos marcados como leídos"
+                },
+    "genericError":  {
+                         "message":  "No se pueden marcar todos los correos electrónicos como leídos"
+                     }
+}

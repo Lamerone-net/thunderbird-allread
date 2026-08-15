@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "모두 읽음으로 표시"
+                      },
+    "extensionDescription":  {
+                                 "message":  "모든 Thunderbird 메일 계정에서 읽지 않은 모든 이메일을 읽음으로 표시합니다."
+                             },
+    "actionTitle":  {
+                        "message":  "모든 이메일을 읽음으로 표시"
+                    },
+    "searching":  {
+                      "message":  "읽지 않은 이메일 검색 중…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "이메일이 업데이트되지 않았습니다. 하나 이상의 계정에 액세스할 수 없습니다."
+                               },
+    "alreadyRead":  {
+                        "message":  "모든 이메일을 이미 읽었습니다."
+                    },
+    "progress":  {
+                     "message":  "$2 이메일 중 $1이 읽음으로 표시됨"
+                 },
+    "partialResult":  {
+                          "message":  "$1 이메일은 읽음으로 표시됩니다. $2 작업이 실패했습니다."
+                      },
+    "success":  {
+                    "message":  "$1 이메일이 읽음으로 표시됨"
+                },
+    "genericError":  {
+                         "message":  "모든 이메일을 읽음으로 표시할 수 없습니다."
+                     }
+}

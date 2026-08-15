@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Marciwch Pawb fel Wedi\u0027i Ddarllen"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Yn nodi bod pob e-bost heb ei ddarllen wedi\u0027i ddarllen ym mhob cyfrif post Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Nodwch fod pob e-bost wedi\u0027i ddarllen"
+                    },
+    "searching":  {
+                      "message":  "Chwilio am e-byst heb eu darllen"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Dim e-byst wedi\u0027u diweddaru; ni ellid cyrchu un neu fwy o gyfrifon"
+                               },
+    "alreadyRead":  {
+                        "message":  "Mae pob e-bost eisoes wedi\u0027i ddarllen"
+                    },
+    "progress":  {
+                     "message":  "$1 o $2 e-byst wedi\u0027u marcio fel wedi\u0027u darllen"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-byst wedi\u0027u marcio fel wedi\u0027u darllen; $2 gweithrediadau wedi methu"
+                      },
+    "success":  {
+                    "message":  "$1 e-byst wedi\u0027u marcio fel wedi\u0027u darllen"
+                },
+    "genericError":  {
+                         "message":  "Methu marcio pob e-bost fel wedi\u0027i ddarllen"
+                     }
+}

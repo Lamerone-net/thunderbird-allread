@@ -1,0 +1,32 @@
+{
+  "extensionName": {
+    "message": "Mark All as Read"
+  },
+  "extensionDescription": {
+    "message": "Marks every unread email as read in all Thunderbird mail accounts."
+  },
+  "actionTitle": {
+    "message": "Mark all emails as read"
+  },
+  "searching": {
+    "message": "Searching for unread emails…"
+  },
+  "noMessagesAccountError": {
+    "message": "No emails updated; one or more accounts could not be accessed"
+  },
+  "alreadyRead": {
+    "message": "All emails are already read"
+  },
+  "progress": {
+    "message": "$1 of $2 emails marked as read"
+  },
+  "partialResult": {
+    "message": "$1 emails marked as read; $2 operations failed"
+  },
+  "success": {
+    "message": "$1 emails marked as read"
+  },
+  "genericError": {
+    "message": "Unable to mark all emails as read"
+  }
+}

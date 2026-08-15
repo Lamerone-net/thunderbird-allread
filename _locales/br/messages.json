@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Merkañ an holl evel lennet"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Merkañ a ra pep postel dilennet evel lennet en holl gontoù postel Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Merkañ an holl bosteloù evel lennet"
+                    },
+    "searching":  {
+                      "message":  "O klask posteloù dilennetâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Postel ebet hizivaet ; n\u0027eus ket bet gallet mont e darempred gant unan pe meur a gont"
+                               },
+    "alreadyRead":  {
+                        "message":  "Lennet eo bet an holl bosteloù dija"
+                    },
+    "progress":  {
+                     "message":  "$1 eus $2 posteloù merket evel lennet"
+                 },
+    "partialResult":  {
+                          "message":  "$1 posteloù merket evel lennet; C\u0027hwitet en deus an obererezhioù $2"
+                      },
+    "success":  {
+                    "message":  "$1 posteloù merket evel lennet"
+                },
+    "genericError":  {
+                         "message":  "N\u0027haller ket merkañ an holl bosteloù evel lennet"
+                     }
+}

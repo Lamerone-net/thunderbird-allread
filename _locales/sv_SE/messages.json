@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Markera alla som lästa"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Markerar alla olästa e-postmeddelanden som lästa i alla Thunderbird-e-postkonton."
+                             },
+    "actionTitle":  {
+                        "message":  "Markera alla e-postmeddelanden som lästa"
+                    },
+    "searching":  {
+                      "message":  "Söker efter olästa e-postmeddelanden..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Inga e-postmeddelanden uppdaterade; ett eller flera konton kunde inte nås"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alla e-postmeddelanden är redan lästa"
+                    },
+    "progress":  {
+                     "message":  "$1 av $2 e-postmeddelanden markerade som lästa"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-postmeddelanden markerade som lästa; $2 åtgärder misslyckades"
+                      },
+    "success":  {
+                    "message":  "$1 e-postmeddelanden markerade som lästa"
+                },
+    "genericError":  {
+                         "message":  "Det gick inte att markera alla e-postmeddelanden som lästa"
+                     }
+}

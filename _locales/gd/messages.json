@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Mark All mar Leugh"
+                      },
+    "extensionDescription":  {
+                                 "message":  "A’ comharrachadh gach post-d gun leughadh mar a chaidh a leughadh anns a h-uile cunntas puist Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Comharraich a h-uile post-d mar a chaidh a leughadh"
+                    },
+    "searching":  {
+                      "message":  "A\u0027 lorg phuist-d gun leughadhâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Cha deach puist-d ùrachadh; cha robh cothrom air aon chunntas no barrachd"
+                               },
+    "alreadyRead":  {
+                        "message":  "Tha a h-uile post-d air a leughadh mu thràth"
+                    },
+    "progress":  {
+                     "message":  "$1 à $2 puist-d comharraichte mar a chaidh an leughadh"
+                 },
+    "partialResult":  {
+                          "message":  "$1 puist-d air an comharrachadh mar a chaidh an leughadh; Dh\u0027fhàillig gnìomhachd $2"
+                      },
+    "success":  {
+                    "message":  "$1 puist-d air an comharrachadh mar a chaidh an leughadh"
+                },
+    "genericError":  {
+                         "message":  "Cha ghabh a h-uile post-d a chomharrachadh mar a chaidh a leughadh"
+                     }
+}

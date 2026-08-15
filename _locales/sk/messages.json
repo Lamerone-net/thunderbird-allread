@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Označiť všetko ako prečítané"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Označí každý neprečítaný e-mail ako prečítaný vo všetkých poštových účtoch Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Označiť všetky e-maily ako prečítané"
+                    },
+    "searching":  {
+                      "message":  "Hľadá sa neprečítané e-maily…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Žiadne aktualizované e-maily; k jednému alebo viacerým účtom sa nepodarilo získať prístup"
+                               },
+    "alreadyRead":  {
+                        "message":  "Všetky e-maily sú už prečítané"
+                    },
+    "progress":  {
+                     "message":  "$1 z $2 e-mailov označených ako prečítané"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mailov označených ako prečítané; Operácie $2 zlyhali"
+                      },
+    "success":  {
+                    "message":  "$1 e-mailov označených ako prečítané"
+                },
+    "genericError":  {
+                         "message":  "Nie je možné označiť všetky e-maily ako prečítané"
+                     }
+}

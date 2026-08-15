@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Označi vse kot prebrano"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Označi vsako neprebrano e-pošto kot prebrano v vseh poštnih računih Thunderbird."
+                             },
+    "actionTitle":  {
+                        "message":  "Označi vsa e-poštna sporočila kot prebrana"
+                    },
+    "searching":  {
+                      "message":  "Iskanje neprebranih e-poštnih sporočil..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Ni posodobljenih e-poštnih sporočil; do enega ali več računov ni bilo mogoče dostopati"
+                               },
+    "alreadyRead":  {
+                        "message":  "Vsa e-poštna sporočila so že prebrana"
+                    },
+    "progress":  {
+                     "message":  "$1 od $2 e-poštnih sporočil označenih kot prebranih"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-poštnih sporočil, označenih kot prebranih; $2 operacij ni uspelo"
+                      },
+    "success":  {
+                    "message":  "$1 e-poštna sporočila so označena kot prebrana"
+                },
+    "genericError":  {
+                         "message":  "Vseh e-poštnih sporočil ni mogoče označiti kot prebrane"
+                     }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Az összes megjelölése olvasottként"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Minden olvasatlan e-mailt olvasottként jelöl meg minden Thunderbird levelezési fiókban."
+                             },
+    "actionTitle":  {
+                        "message":  "Minden e-mail megjelölése olvasottként"
+                    },
+    "searching":  {
+                      "message":  "Olvasatlan e-mailek keresése"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Nincsenek frissített e-mailek; egy vagy több fiókhoz nem lehetett hozzáférni"
+                               },
+    "alreadyRead":  {
+                        "message":  "Az összes e-mailt már elolvasták"
+                    },
+    "progress":  {
+                     "message":  "$1/$2 e-mail olvasottként megjelölve"
+                 },
+    "partialResult":  {
+                          "message":  "$1 olvasottként megjelölt e-mailek; $2 műveletek sikertelenek"
+                      },
+    "success":  {
+                    "message":  "$1 e-mail olvasottként megjelölve"
+                },
+    "genericError":  {
+                         "message":  "Nem lehet minden e-mailt olvasottként megjelölni"
+                     }
+}

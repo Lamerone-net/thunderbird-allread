@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Merkitse kaikki luetuiksi"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Merkitsee jokaisen lukemattoman sähköpostin luetuksi kaikissa Thunderbird-sähköpostitileissä."
+                             },
+    "actionTitle":  {
+                        "message":  "Merkitse kaikki sähköpostit luetuiksi"
+                    },
+    "searching":  {
+                      "message":  "Etsitään lukemattomia sähköposteja"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Sähköpostiviestejä ei ole päivitetty; yhtä tai useampaa tiliä ei voitu käyttää"
+                               },
+    "alreadyRead":  {
+                        "message":  "Kaikki sähköpostit on jo luettu"
+                    },
+    "progress":  {
+                     "message":  "$1/$2 sähköpostista merkitty luetuksi"
+                 },
+    "partialResult":  {
+                          "message":  "$1 sähköpostit, jotka on merkitty luetuiksi; $2 toiminnot epäonnistuivat"
+                      },
+    "success":  {
+                    "message":  "$1 sähköpostit merkitty luetuiksi"
+                },
+    "genericError":  {
+                         "message":  "Kaikkia sähköposteja ei voi merkitä luetuiksi"
+                     }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Merk alle som lest"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Merker hver ulest e-post som lest i alle Thunderbird-postkontoer."
+                             },
+    "actionTitle":  {
+                        "message":  "Merk alle e-poster som lest"
+                    },
+    "searching":  {
+                      "message":  "Søker etter uleste e-poster..."
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Ingen e-poster oppdatert; en eller flere kontoer fikk ikke tilgang"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alle e-poster er allerede lest"
+                    },
+    "progress":  {
+                     "message":  "$1 av $2 e-poster merket som lest"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-poster merket som lest; $2 operasjoner mislyktes"
+                      },
+    "success":  {
+                    "message":  "$1 e-poster merket som lest"
+                },
+    "genericError":  {
+                         "message":  "Kan ikke merke alle e-poster som lest"
+                     }
+}

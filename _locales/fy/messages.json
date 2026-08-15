@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Markearje alles as lêzen"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Markearret elke net-lêzen e-post as lêzen yn alle Thunderbird-postakkounts."
+                             },
+    "actionTitle":  {
+                        "message":  "Markearje alle e-mails as lêzen"
+                    },
+    "searching":  {
+                      "message":  "Op syk nei net-lêzen e-mails…"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Gjin e-mails bywurke; ien of mear akkounts koene net tagonklik wurde"
+                               },
+    "alreadyRead":  {
+                        "message":  "Alle e-mails binne al lêzen"
+                    },
+    "progress":  {
+                     "message":  "$1 fan $2 e-postberjochten markearre as lêzen"
+                 },
+    "partialResult":  {
+                          "message":  "$1 e-mails markearre as lêzen; $2 operaasjes mislearre"
+                      },
+    "success":  {
+                    "message":  "$1 e-mails markearre as lêzen"
+                },
+    "genericError":  {
+                         "message":  "Kin alle e-mails net as lêzen markearje"
+                     }
+}

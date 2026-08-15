@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Pažymėti viską kaip perskaitytą"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Pažymi kiekvieną neskaitytą el. laišką kaip skaitytą visose „Thunderbird“ pašto paskyrose."
+                             },
+    "actionTitle":  {
+                        "message":  "Pažymėkite visus el. laiškus kaip perskaitytus"
+                    },
+    "searching":  {
+                      "message":  "Ieškoma neskaitytų el. laiškų"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "El. laiškų neatnaujinta; nepavyko pasiekti vienos ar kelių paskyrų"
+                               },
+    "alreadyRead":  {
+                        "message":  "Visi el. laiškai jau perskaityti"
+                    },
+    "progress":  {
+                     "message":  "$1 iš $2 el. laiškų pažymėti kaip perskaityti"
+                 },
+    "partialResult":  {
+                          "message":  "$1 el. laiškai pažymėti kaip perskaityti; $2 operacijos nepavyko"
+                      },
+    "success":  {
+                    "message":  "$1 el. laiškai pažymėti kaip skaityti"
+                },
+    "genericError":  {
+                         "message":  "Nepavyko pažymėti visų el. laiškų kaip skaitytų"
+                     }
+}

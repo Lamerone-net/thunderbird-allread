@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Hammasini o\u0027qilgan deb belgilang"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Har bir o\u0027qilmagan elektron pochta xabarlarini Thunderbird pochta qayd yozuvlarida o\u0027qilgan deb belgilaydi."
+                             },
+    "actionTitle":  {
+                        "message":  "Barcha xatlarni o\u0027qilgan deb belgilang"
+                    },
+    "searching":  {
+                      "message":  "Oʻqilmagan xatlarni qidirishâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Hech qanday elektron pochta xabarlari yangilanmagan; bir yoki bir nechta hisobga kirish imkoni bo\u0027lmadi"
+                               },
+    "alreadyRead":  {
+                        "message":  "Barcha xatlar allaqachon o\u0027qilgan"
+                    },
+    "progress":  {
+                     "message":  "$1 / $2 xat o‘qilgan deb belgilandi"
+                 },
+    "partialResult":  {
+                          "message":  "$1 xatlar o‘qilgan deb belgilangan; $2 amallar bajarilmadi"
+                      },
+    "success":  {
+                    "message":  "$1 xatlar o‘qilgan deb belgilandi"
+                },
+    "genericError":  {
+                         "message":  "Barcha xatlarni o‘qilgan deb belgilash imkonsiz"
+                     }
+}

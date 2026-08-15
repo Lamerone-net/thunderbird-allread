@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.2.0",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "allread@sparviero.local",
+      "strict_min_version": "128.0"
+    }
+  },
+  "permissions": [
+    "accountsRead",
+    "messagesRead",
+    "messagesUpdate"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_icon": {
+      "16": "icons/allread.svg",
+      "32": "icons/allread.svg",
+      "64": "icons/allread.svg"
+    }
+  },
+  "icons": {
+    "16": "icons/allread.svg",
+    "32": "icons/allread.svg",
+    "64": "icons/allread.svg"
+  }
+}

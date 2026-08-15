@@ -1,0 +1,32 @@
+﻿{
+    "extensionName":  {
+                          "message":  "Merktu allt sem lesið"
+                      },
+    "extensionDescription":  {
+                                 "message":  "Merkir alla ólesna tölvupósta sem lesna á öllum Thunderbird póstreikningum."
+                             },
+    "actionTitle":  {
+                        "message":  "Merktu alla tölvupósta sem lesna"
+                    },
+    "searching":  {
+                      "message":  "Leitar að ólesnum tölvupóstiâ€¦"
+                  },
+    "noMessagesAccountError":  {
+                                   "message":  "Enginn tölvupóstur uppfærður; ekki var hægt að opna einn eða fleiri reikninga"
+                               },
+    "alreadyRead":  {
+                        "message":  "Allur tölvupóstur er þegar lesinn"
+                    },
+    "progress":  {
+                     "message":  "$1 af $2 tölvupóstum merkt sem lesin"
+                 },
+    "partialResult":  {
+                          "message":  "$1 tölvupóstur merktur sem lesinn; $2 aðgerðir mistókust"
+                      },
+    "success":  {
+                    "message":  "$1 tölvupóstur merktur sem lesinn"
+                },
+    "genericError":  {
+                         "message":  "Ekki er hægt að merkja alla tölvupósta sem lesna"
+                     }
+}
