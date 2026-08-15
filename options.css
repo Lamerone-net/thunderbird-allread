@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font: message-box;
+}
+
+main {
+  max-width: 32rem;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 2rem;
+}
+
+#status {
+  min-height: 1.2em;
+  margin: 0.5rem 0 0;
+  color: #2e8b57;
+}

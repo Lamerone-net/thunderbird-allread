@@ -28,5 +28,20 @@
   },
   "genericError": {
     "message": "Unable to mark all emails as read"
+  },
+  "optionsTitle": {
+    "message": "Mark All as Read settings"
+  },
+  "accountLabel": {
+    "message": "Account to mark as read"
+  },
+  "allAccounts": {
+    "message": "All accounts"
+  },
+  "settingsSaved": {
+    "message": "Setting saved"
+  },
+  "settingsError": {
+    "message": "Unable to load the account list"
   }
 }

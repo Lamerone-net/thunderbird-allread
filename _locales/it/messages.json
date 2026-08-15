@@ -28,5 +28,20 @@
   },
   "genericError": {
     "message": "Impossibile segnare tutte le email come lette"
+  },
+  "optionsTitle": {
+    "message": "Impostazioni di Segna tutto come letto"
+  },
+  "accountLabel": {
+    "message": "Account da segnare come letto"
+  },
+  "allAccounts": {
+    "message": "Tutti gli account"
+  },
+  "settingsSaved": {
+    "message": "Impostazione salvata"
+  },
+  "settingsError": {
+    "message": "Impossibile caricare l'elenco degli account"
   }
 }

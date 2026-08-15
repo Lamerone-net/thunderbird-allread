@@ -1,6 +1,7 @@
 const MAIL_ACCOUNT_TYPES = new Set(["imap", "pop3", "none"]);
 const UPDATE_CONCURRENCY = 12;
 const BADGE_RESET_DELAY = 5000;
+const ALL_ACCOUNTS = "all";
 
 let activeRun = null;
 let badgeResetTimer = null;
@@ -76,10 +77,18 @@ async function markEverythingAsRead() {
 
   const accounts = await messenger.accounts.list();
   const mailAccounts = accounts.filter(account => MAIL_ACCOUNT_TYPES.has(account.type));
+  const { selectedAccountId = ALL_ACCOUNTS } = await messenger.storage.local.get("selectedAccountId");
+  let selectedAccounts = selectedAccountId === ALL_ACCOUNTS
+    ? mailAccounts
+    : mailAccounts.filter(account => account.id === selectedAccountId);
+  if (selectedAccounts.length === 0 && selectedAccountId !== ALL_ACCOUNTS) {
+    selectedAccounts = mailAccounts;
+    await messenger.storage.local.set({ selectedAccountId: ALL_ACCOUNTS });
+  }
   const allIds = [];
   const errors = [];
 
-  for (const account of mailAccounts) {
+  for (const account of selectedAccounts) {
     try {
       allIds.push(...await collectUnreadMessageIds(account.id));
     } catch (error) {

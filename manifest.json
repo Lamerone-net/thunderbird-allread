@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "default_locale": "en",
   "browser_specific_settings": {
     "gecko": {
@@ -13,10 +13,15 @@
   "permissions": [
     "accountsRead",
     "messagesRead",
-    "messagesUpdate"
+    "messagesUpdate",
+    "storage"
   ],
   "background": {
     "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   },
   "action": {
     "default_title": "__MSG_actionTitle__",
