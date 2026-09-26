@@ -1,5 +1,8 @@
 const MAIL_ACCOUNT_TYPES = new Set(["imap", "pop3", "none"]);
-const UPDATE_CONCURRENCY = 12;
+const MESSAGES_PER_PAGE = 100;
+const UPDATE_BATCH_SIZE = 10;
+const UPDATE_PAUSE_MS = 25;
+const PROGRESS_INTERVAL_MS = 250;
 const BADGE_RESET_DELAY = 5000;
 const ALL_ACCOUNTS = "all";
 
@@ -29,53 +32,63 @@ function resetBadgeLater() {
   }, BADGE_RESET_DELAY);
 }
 
-async function collectUnreadMessageIds(accountId) {
-  const ids = [];
-  let page = await messenger.messages.query({ accountId, read: false });
-
-  while (page) {
-    for (const message of page.messages || []) {
-      if (message.read === false) {
-        ids.push(message.id);
-      }
-    }
-
-    if (!page.id) {
-      break;
-    }
-    page = await messenger.messages.continueList(page.id);
-  }
-
-  return ids;
+function pauseUpdates() {
+  // Awaiting an API promise alone does not guarantee time for UI work.
+  return new Promise(resolve => setTimeout(resolve, UPDATE_PAUSE_MS));
 }
 
-async function markIdsAsRead(ids, onProgress) {
-  let nextIndex = 0;
-  let marked = 0;
-  const errors = [];
+async function markAccountAsRead(accountId, result, onProgress) {
+  let listId = await messenger.messages.query({
+    accountId,
+    read: false,
+    messagesPerPage: MESSAGES_PER_PAGE,
+    autoPaginationTimeout: 100,
+    returnMessageListId: true
+  });
 
-  async function worker() {
-    while (nextIndex < ids.length) {
-      const index = nextIndex++;
+  try {
+    while (listId) {
+      const page = await messenger.messages.continueList(listId);
+      listId = page.id;
+      let attempted = 0;
+      for (const mail of page.messages) {
+        if (mail.read !== false) {
+          continue;
+        }
+        try {
+          await messenger.messages.update(mail.id, { read: true });
+          result.marked += 1;
+        } catch (error) {
+          result.errors += 1;
+          // Retain only a count, not an unbounded array of Error objects.
+          if (result.errors === 1) {
+            console.error("Unable to mark a message as read:", error);
+          }
+        }
+        onProgress();
+        attempted += 1;
+        if (attempted % UPDATE_BATCH_SIZE === 0) {
+          await pauseUpdates();
+        }
+      }
+      // Also yield for short or empty pages and before reading the next page.
+      await pauseUpdates();
+    }
+  } finally {
+    if (listId) {
       try {
-        await messenger.messages.update(ids[index], { read: true });
-        marked += 1;
-        onProgress(marked);
+        await messenger.messages.abortList(listId);
       } catch (error) {
-        errors.push(error);
+        console.error("Unable to release the message list:", error);
       }
     }
   }
-
-  const workerCount = Math.min(UPDATE_CONCURRENCY, ids.length);
-  await Promise.all(Array.from({ length: workerCount }, () => worker()));
-  return { marked, errors };
 }
 
 async function markEverythingAsRead() {
   setBadge("…", "#3973c4", message("searching"));
 
-  const accounts = await messenger.accounts.list();
+  const accounts = await messenger.accounts.list(false);
   const mailAccounts = accounts.filter(account => MAIL_ACCOUNT_TYPES.has(account.type));
   const { selectedAccountId = ALL_ACCOUNTS } = await messenger.storage.local.get("selectedAccountId");
   let selectedAccounts = selectedAccountId === ALL_ACCOUNTS
@@ -85,38 +98,38 @@ async function markEverythingAsRead() {
     selectedAccounts = mailAccounts;
     await messenger.storage.local.set({ selectedAccountId: ALL_ACCOUNTS });
   }
-  const allIds = [];
-  const errors = [];
+  const result = { marked: 0, errors: 0 };
+  let lastProgress = Date.now();
+  const onProgress = () => {
+    const now = Date.now();
+    if (now - lastProgress < PROGRESS_INTERVAL_MS) {
+      return;
+    }
+    lastProgress = now;
+    const badgeText = result.marked > 999 ? "999+" : String(result.marked);
+    // The total is unknown until all pages have been processed.
+    setBadge(badgeText, "#3973c4", message("progress", [String(result.marked), "…"]));
+  };
 
   for (const account of selectedAccounts) {
     try {
-      allIds.push(...await collectUnreadMessageIds(account.id));
+      await markAccountAsRead(account.id, result, onProgress);
     } catch (error) {
-      errors.push(error);
+      result.errors += 1;
       console.error(`Unable to read account ${account.name}:`, error);
     }
   }
 
-  if (allIds.length === 0) {
-    const title = errors.length
+  if (result.errors) {
+    const title = result.marked === 0
       ? message("noMessagesAccountError")
-      : message("alreadyRead");
-    setBadge(errors.length ? "!" : "✓", errors.length ? "#c43d3d" : "#2e8b57", title);
-    resetBadgeLater();
-    return;
-  }
-
-  setBadge("0", "#3973c4", message("progress", ["0", String(allIds.length)]));
-  const result = await markIdsAsRead(allIds, marked => {
-    const badgeText = marked > 999 ? "999+" : String(marked);
-    setBadge(badgeText, "#3973c4", message("progress", [String(marked), String(allIds.length)]));
-  });
-
-  errors.push(...result.errors);
-  if (errors.length) {
-    setBadge("!", "#c43d3d", message("partialResult", [String(result.marked), String(errors.length)]));
+      : message("partialResult", [String(result.marked), String(result.errors)]);
+    setBadge("!", "#c43d3d", title);
   } else {
-    setBadge("✓", "#2e8b57", message("success", String(result.marked)));
+    const title = result.marked === 0
+      ? message("alreadyRead")
+      : message("success", String(result.marked));
+    setBadge("✓", "#2e8b57", title);
   }
   resetBadgeLater();
 }

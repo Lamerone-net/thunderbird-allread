@@ -4,7 +4,7 @@ A Thunderbird extension that marks every unread email as read across all configu
 
 ## Usage
 
-Click the envelope and checkmark button in the toolbar. The badge displays progress and shows a green checkmark when the operation finishes. Additional clicks are ignored while an operation is running.
+Click the envelope and checkmark button in the toolbar. The badge displays progress and shows a green checkmark when the operation finishes. Additional clicks are ignored while an operation is running. Messages are processed one page at a time, with sequential updates and short pauses to reduce UI load. During processing, the total is shown as an ellipsis because it is not known yet; the final badge tooltip reports the number of messages updated.
 
 In the extension settings, choose a specific mail account or **All accounts** to control which messages are marked as read.
 
@@ -28,3 +28,7 @@ Run the following command from PowerShell:
 ```
 
 The package is created in the `dist` directory.
+
+## Checks
+
+Run `node --test tests/background.test.cjs` for the mocked API regression tests. These do not replace testing responsiveness with a real Thunderbird profile.

@@ -2,8 +2,8 @@ $ErrorActionPreference = "Stop"
 
 $projectDirectory = $PSScriptRoot
 $distDirectory = Join-Path $projectDirectory "dist"
-$packagePath = Join-Path $distDirectory "thunderbird-allread-1.3.0.xpi"
-$zipPath = Join-Path $distDirectory "thunderbird-allread-1.3.0.zip"
+$packagePath = Join-Path $distDirectory "thunderbird-allread-1.3.1.xpi"
+$zipPath = Join-Path $distDirectory "thunderbird-allread-1.3.1.zip"
 
 New-Item -ItemType Directory -Force -Path $distDirectory | Out-Null
 if (Test-Path -LiteralPath $zipPath) {
