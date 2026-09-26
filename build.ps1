@@ -2,8 +2,8 @@ $ErrorActionPreference = "Stop"
 
 $projectDirectory = $PSScriptRoot
 $distDirectory = Join-Path $projectDirectory "dist"
-$packagePath = Join-Path $distDirectory "thunderbird-allread-1.3.2.xpi"
-$zipPath = Join-Path $distDirectory "thunderbird-allread-1.3.2.zip"
+$packagePath = Join-Path $distDirectory "thunderbird-allread-1.3.3.xpi"
+$zipPath = Join-Path $distDirectory "thunderbird-allread-1.3.3.zip"
 
 New-Item -ItemType Directory -Force -Path $distDirectory | Out-Null
 if (Test-Path -LiteralPath $zipPath) {
@@ -19,7 +19,6 @@ try {
         options.css `
         options.js `
         icons `
-        logo.jpg `
         _locales
     if ($LASTEXITCODE -ne 0) {
         throw "Unable to create the extension archive (tar exit code $LASTEXITCODE)."
